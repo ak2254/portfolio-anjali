@@ -268,6 +268,12 @@ footer{
 /* You can remove below code if you don't want Footer to be responsive */
 
 
+@media screen and (max-width: 1000px) {
+    .me-img{
+        width: 900px !important;
+    }
+
+}
 @media (max-width: 880px) {
 
     .footer-distributed .footer-left,
