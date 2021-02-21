@@ -22,7 +22,7 @@ html,body
 }
 #nav a {
     text-decoration:none;
-    padding:10px 18px; /* variable width */
+    padding:10px 12px; /* variable width */
     margin-right: 10px;
     overflow-wrap: break-word;
     text-align: center;
