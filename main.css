@@ -271,6 +271,22 @@ footer{
 @media screen and (max-width: 1000px) {
     .me-img{
         width: 900px !important;
+        margin-bottom: 30px;
+    }
+    .port-p{
+        text-align: center !important;
+
+    }
+    .sub-header{
+        text-align: center !important;
+    }
+    h1{
+        text-align: center !important;
+    }
+    .centr-btnn{
+        display: flex;
+        justify-content: center;
+        align-content: center;
     }
 
 }
