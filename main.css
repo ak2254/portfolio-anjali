@@ -294,6 +294,9 @@ footer{
         height: 80%;
 
     }
+    .form{
+        padding: 0 !important;
+    }
 
 }
 @media (max-width: 880px) {
