@@ -292,7 +292,9 @@ footer{
     .header-about{
         height: 80vh !important;
     }
-
+    #wia{
+        text-align: center !important;
+    }
 
 
 }
