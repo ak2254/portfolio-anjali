@@ -277,6 +277,21 @@ footer{
         text-align: left!important;
         margin-top:30px !important;
     }
+    .header-text{
+       text-align: center!important;
+    }
+    .header-screen{
+        top: 15% !important;
+        left: 0 !important;
+        margin: 0 !important;
+        font-size: 90% !important;
+        padding-top: 100px;
+        padding-bottom: 200px;
+
+    }
+    .header-about{
+        height: 80vh !important;
+    }
 
 
 
