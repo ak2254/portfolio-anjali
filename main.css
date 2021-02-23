@@ -259,6 +259,9 @@ footer{
         text-align: left !important;
         float: left !important;
     }
+    .me-img{
+        display: none !important;
+    }
 
 }
 @media (max-width: 880px) {
