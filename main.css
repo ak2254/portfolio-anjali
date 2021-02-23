@@ -263,6 +263,16 @@ footer{
     .me-img{
         display: none !important;
     }
+    #objective-p{
+        margin-top: 30px !important;
+    }
+    .njit{
+        width: 80%;
+        height: auto;
+    }
+    .skills-header{
+        font-size: 25px !important;
+    }
 
 
 }
