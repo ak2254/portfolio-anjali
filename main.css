@@ -257,7 +257,7 @@ footer{
         padding: 15px 25px !important;
     }
     .navbar-brand{
-        text-align: left !important;
+        text-align: center !important;
         float: left !important;
     }
     .me-img{
@@ -273,6 +273,11 @@ footer{
     .skills-header{
         font-size: 25px !important;
     }
+    .skiils-subhead{
+        text-align: left!important;
+        margin-top:30px !important;
+    }
+
 
 
 }
