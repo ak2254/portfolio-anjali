@@ -295,6 +295,12 @@ footer{
     #wia{
         text-align: center !important;
     }
+.project-h1{
+    text-align: left !important;
+}
+.port{
+    text-align: left !important;
+}
 
 
 }
@@ -314,3 +320,54 @@ footer{
     }
 
 }
+
+
+
+
+
+
+.products-center {
+    width: 90vw; /* 90% of the screen */
+    margin: 0 auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); /* auto fit the screen each product of having
+    atleast 260px and use 1fr
+    which helps with accurately dividing it  */
+    grid-column-gap: 4rem;
+    grid-row-gap: 6rem;
+
+}
+.img-container {
+    position: relative;
+    overflow: hidden;
+}
+
+
+.img-container:hover .bag-btn {
+    transform: translateX(0);
+}
+.product-img {
+    display: block;
+    width: 100%;
+
+
+
+}
+
+
+.product h3 {
+    text-transform: capitalize;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+
+    text-align: center;
+}
+
+.product h4 {
+    margin-top: 0.7rem;
+
+    text-align: center;
+}
+
+
