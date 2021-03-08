@@ -371,3 +371,305 @@ footer{
 }
 
 
+
+
+
+
+
+
+.testimonials{
+    padding: 20px 0;
+
+}
+.testimonials h2{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 5rem;
+    color: black;
+
+    text-transform: uppercase;
+
+
+
+}
+.col-center{
+    margin: 0px auto;
+    float: none !important;
+
+
+}
+.carousel{
+    margin:15px auto;
+    padding: 0 70px;
+
+
+}
+.carousel-item{
+    color: black;
+    font-size: 17px;
+    text-align: center;
+    overflow: hidden;
+    min-height: 250px;
+
+}
+
+
+.carousel .ic{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+
+.carousel .icon{
+
+    background-color: #152238;
+    border-radius: 50%;
+    border: 1px solid #152238;
+    text-align: center;
+    box-shadow: 0 2px 20px rgba(0,0,0, 0.4);
+    color:white;
+    font-size: 25px;
+    line-height: 60px;
+    height: 60px;
+    width: 60px;
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+.carousel .icon i{
+
+    background-color: #152238;
+    border-radius: 50%;
+    border: 1px solid #152238;
+    text-align: center;
+    box-shadow: 0 2px 20px rgba(0,0,0, 0.4);
+    color: white;
+    font-size: 32px;
+    line-height: 60px;
+    height: 60px;
+    width: 60px;
+    margin-bottom: 35px;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+
+
+}
+.carousel .inner-txt{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+
+}
+.timeline{
+    position: relative;
+    margin: 50px auto;
+    width: 1000px;
+    padding: 40px 0;
+
+
+}
+.timeline:before{
+    content: '';
+    position: absolute;
+    left:50%;
+    width: 2px;
+    height: 100%;
+    background: #c5c5c5;
+
+}
+
+.timeline ul{
+    margin:0;
+    pading:0;
+
+}
+
+.timeline ul li{
+    position: relative;
+    width: 50%;
+    padding: 20px 40px;
+    text-decoration: none;
+    list-style: none;
+
+
+}
+
+.timeline ul li:nth-child(odd){
+    float: left;
+    text-align: right;
+    clear: both;
+
+}
+.timeline ul li:nth-child(even){
+    float: right;
+    text-align: left;
+    clear: both;
+
+}
+
+
+.content{
+    padding-bottom: 20px;
+
+}
+
+.timeline ul li:nth-child(odd):before{
+    content:'';
+    position: absolute;
+    top:24px;
+    right:13px;
+
+    width: 10px;
+    height: 10px;
+    background: #222222;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px rgba(0,0,0,0.2);
+
+
+}
+.timeline ul li:nth-child(even):before{
+    content:'';
+    position: absolute;
+    top:24px;
+    left:-24px;
+
+    width: 10px;
+    height: 10px;
+    background: #222222;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px rgba(0,0,0,0.2);
+
+
+}
+
+
+.timeline ul li h3{
+    margin:0;
+    padding: 0;
+
+    color:#222222;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.timeline ul li p{
+    margin:10px 0 0;
+    padding: 0;
+
+    color:#222222;
+    font-size: 10px;
+
+
+}
+.timeline ul li:nth-child(odd) .time{
+    position: absolute;
+    top:8px;
+    right: -220px;
+    margin:0;
+    border-radius: 25px;
+    padding: 8px 15px;
+    background: #152238;
+    color: #FFFFFF;
+
+    box-shadow: 0 2px 20px rgba(0,0,0, 0.4);
+    font-size: 12px;
+
+}
+.timeline ul li:nth-child(even) .time{
+    position: absolute;
+    top:12px;
+    left: -240px;
+    margin:0;
+    border-radius: 25px;
+    padding: 8px 16px;
+    background: #152238;
+    color: #FFFFFF;
+    box-shadow: 0 2px 20px rgba(0,0,0, 0.4);
+
+}
+
+.time h4{
+    font-size: 12px;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+
+    .timeline{
+        width: 100%;
+        right: 0;
+        left: 0;
+
+
+    }
+    .timeline:before{
+        left: 20px;
+
+    }
+    .container-mobile{
+        width: 100%;
+        right: 0;
+        left: 0;
+        display: block;
+
+    }
+
+    .timeline ul li:nth-child(odd){
+        width: 100%;
+        text-align: left;
+        padding-left: 50px;
+        padding-bottom: 50px;
+
+
+    }
+    .timeline ul li:nth-child(even){
+        width: 100%;
+        text-align: left;
+        float: left;
+    }
+
+    .timeline ul li:nth-child(odd):before,
+    .timeline ul li:nth-child(even):before{
+        top:-18px;
+        left:16px;
+
+
+
+    }
+    .timeline ul li:nth-child(odd) .time,
+    .timeline ul li:nth-child(even) .time{
+        top:-30px;
+        left: 50px;
+        right:inherit;
+
+    }
+
+
+
+}
+
+@media screen and (max-width: 767px){
+    .timeline{
+        width: 100%;
+    }
+    .col-sm{
+        width: 100%;
+    }
+    .container-mobile{
+        width: 100%;
+        display: block;
+        right: 0;
+        left: 0;
+
+    }
+
+}
